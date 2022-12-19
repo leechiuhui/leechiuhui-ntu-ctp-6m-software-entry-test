@@ -11,5 +11,13 @@ const dog = {
 }
 
 // Task 1: Add code here
+dog.breed = 'Poodle'; 
+
+
 
 // Task 2: Add code here
+for (var key in dog) {
+    if (dog.hasOwnProperty(key)) {
+        console.log(key + " -> " + dog[key]);
+    }
+}
