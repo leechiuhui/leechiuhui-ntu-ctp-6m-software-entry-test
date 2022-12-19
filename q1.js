@@ -15,7 +15,7 @@ function swap(x, y){
         console.log("original x is "+x+" y is "+y );
         
         [x, y] = [y, x];
-        console.log("after swap ,now x is "+x+" y is "+y );
+        console.log("after swap , x is "+x+" y is "+y );
        
     }else{
         return -1
@@ -24,3 +24,4 @@ function swap(x, y){
 
 // Task 2: Add code here
 swap("20",200);
+swap(100,200);
