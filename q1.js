@@ -11,8 +11,16 @@
 
 function swap(x, y){
     // Task 1: Add code here
+    if((typeof(x) == 'number') && (typeof(y) == 'number') ){
+        console.log("original x is "+x+" y is "+y );
+        
+        [x, y] = [y, x];
+        console.log("after swap ,now x is "+x+" y is "+y );
+       
+    }else{
+        return -1
+    }
 }
 
 // Task 2: Add code here
-
-module.exports = swap;
+swap("20",200);
