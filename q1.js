@@ -25,3 +25,4 @@ function swap(x, y){
 // Task 2: Add code here
 swap("20",200);
 swap(100,200);
+module.exports = swap;
