@@ -15,7 +15,7 @@ function swap(x, y){
         console.log("original x is "+x+" y is "+y );
         
         [x, y] = [y, x];
-        console.log("after swap , x is "+x+" y is "+y );
+        console.log("after swapping , x is "+x+" y is "+y );
        
     }else{
         return -1
