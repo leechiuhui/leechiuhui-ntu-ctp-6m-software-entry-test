@@ -6,5 +6,6 @@
 */
 
 // Task 1: Add code here
-
-print();
+//import {print2} from 'external.js';
+const print = require('./external.js');
+print.print();
